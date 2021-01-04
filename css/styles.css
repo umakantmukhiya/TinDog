@@ -3,6 +3,33 @@
     color: #fff;
 }
 
+#features {
+    padding: 7% 15%;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials {
+
+
+    background-color: #ef8172;
+    text-align: center;
+
+}
+
+#testimonials-carousel{
+    padding: 7% 15%;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
 
 body {
 
@@ -16,11 +43,31 @@ body {
 
 h1 {
     font-family: 'Montserrat-bold', sans-serif;
-    font-weight: 900;
     font-size: 4rem;
+    font-weight: 900;
     line-height: 1.5;
-    
 
+
+}
+
+h2 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffff;
+}
+
+h3 {
+
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+
+}
+
+
+p {
+    color: #8f8f8f;
 }
 
 /* Dog-Image */
@@ -30,10 +77,22 @@ h1 {
     transform: rotate(25deg);
     /* Equal to rotateZ(45deg) */
     width: 60%;
-     
+
 
 
 }
+
+.press-img {
+    width: 15%;
+    margin: 50px;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px 20px 50px;
+}
+
 
 /* Navigation bar */
 .navbar-link {
@@ -45,12 +104,13 @@ h1 {
 .navbar {
     padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
 
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
-    
+
 }
 
 .nav-item {
@@ -61,4 +121,17 @@ h1 {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+
+/* Fontawsome icon color */
+
+.fa-4x {
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.fa-4x:hover {
+    color: #ff4c68;
 }
