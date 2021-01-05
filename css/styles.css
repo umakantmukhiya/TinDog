@@ -14,7 +14,7 @@
 
 #testimonials {
 
-
+    color: #ffff;
     background-color: #ef8172;
     text-align: center;
 
@@ -30,6 +30,14 @@
     padding-bottom: 3%;
 }
 
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
 
 body {
 
@@ -54,7 +62,7 @@ h2 {
     font-family: 'Montserrat-bold', sans-serif;
     font-size: 3rem;
     font-weight: 900;
-    color: #ffff;
+    
 }
 
 h3 {
