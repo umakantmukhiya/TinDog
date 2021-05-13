@@ -47,6 +47,16 @@
   padding: 100px;
   text-align: center;
 }
+#cta {
+  padding: 8% 20%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#footer {
+  padding: 10% 15%;
+}
 
 .pricing-col {
   padding: 3% 2%;
@@ -127,6 +137,22 @@ p {
 
 .fa-4x:hover {
   color: #ff4c68;
+}
+
+.copyright_class {
+  color: #8f8f8f;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social_icons {
+  margin: 10px;
 }
 
 
