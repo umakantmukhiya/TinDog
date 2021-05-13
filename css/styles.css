@@ -128,3 +128,28 @@ p {
 .fa-4x:hover {
   color: #ff4c68;
 }
+
+
+@media (max-width: 1322px) and (min-width: 1023px) {
+    /* #title{
+        text-align: center;
+    } */
+
+    .title_img{
+        
+        position: static;
+        margin: 10%;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    #title{
+        text-align: center;;
+    }
+
+    .title_img{
+        position: static;
+        transform: rotate(0);
+    }
+}
